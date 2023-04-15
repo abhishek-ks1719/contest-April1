@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/contest-April1/static/css/main.d90a5288.css",
+    "main.js": "/contest-April1/static/js/main.e4335797.js",
+    "index.html": "/contest-April1/index.html",
+    "main.d90a5288.css.map": "/contest-April1/static/css/main.d90a5288.css.map",
+    "main.e4335797.js.map": "/contest-April1/static/js/main.e4335797.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d90a5288.css",
+    "static/js/main.e4335797.js"
+  ]
+}
