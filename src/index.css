@@ -1,13 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: white;
+}
 body {
-  margin: 0;
+  background-color: #151515;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  /* border: 1px solid red; */
+}
+.Form{
+  display:flex;
+  align-items: stretch;
+  flex-direction: column;
+  min-width: 20rem;
+  min-height: 24rem;
+  /* border: 1px solid red; */
+}
+.inputGroup{
+  /* width: inherit; */
+  padding: 0.6rem 1rem;
+  /* border: 1px solid red; */
+}
+.label{
+  padding: 0.4rem 0;
+  color: orange;
+}
+input{
+  width: 100%;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.1rem;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid orangered;
+  outline: none;
+  font-size: 1rem;
+  caret-color: orange;
+}
+input:focus{
+  background-color: inherit;
+}
+p{
+  text-align: center;
+}
+button{
+  padding: 0.4rem 0 ;
+  color: black;
+  margin: 0.6rem 1rem ;
+  width: 50%;
+  font-size: 1rem;
 }
